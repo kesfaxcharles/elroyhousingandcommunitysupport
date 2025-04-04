@@ -2,54 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Elroy Housing and Community Support CIC</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header class="hero">
+    <header>
         <h1>Elroy Housing and Community Support CIC</h1>
         <p>Empowering lives across Hull, Grimsby, and Goole</p>
         <nav>
-            <a href="#">Our Services</a>
-            <a href="#">About</a>
-            <a href="#">Where We Operate</a>
-            <a href="#">Contact</a>
+            <a href="#services">Our Services</a>
+            <a href="#about">About</a>
+            <a href="#where">Where We Operate</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-
-    <main>
-        <section class="tagline">
-            <h2>Affordable homes for everyone</h2>
-        </section>
-
-        <section class="services">
-            <h3>Our Services</h3>
-            <div class="cards">
-                <div class="card">
-                    <h4>🏠 Supported Housing</h4>
-                    <p>Safe and secure accommodations for individuals in need.</p>
-                </div>
-                <div class="card">
-                    <h4>💼 Welfare Support</h4>
-                    <p>Tailored support to help clients access benefits, education, and employment.</p>
-                </div>
-                <div class="card">
-                    <h4>🤝 Outreach</h4>
-                    <p>Proactive support services for vulnerable individuals in the community.</p>
-                </div>
+    <section class="hero">
+        <h2>Affordable homes for everyone</h2>
+    </section>
+    <section id="services" class="services">
+        <h3>Our Services</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="images/housing.png" alt="Supported Housing" />
+                <h4>Supported Housing</h4>
+                <p>Safe and secure accommodations for individuals in need.</p>
             </div>
-        </section>
-
-        <section class="about">
-            <img src="images/support.jpg" alt="Support Worker Smiling" />
-            <div>
-                <h3>About Us</h3>
-                <p>We are a registered CIC (Company No. 16381471) dedicated to supporting individuals and families facing housing challenges. We believe in dignity, empowerment, and inclusive support for all.</p>
+            <div class="card">
+                <img src="images/welfare.png" alt="Welfare Support" />
+                <h4>Welfare Support</h4>
+                <p>Tailored support to help clients access benefits, education, and employment.</p>
             </div>
-        </section>
-    </main>
-
+            <div class="card">
+                <img src="images/outreach.png" alt="Outreach" />
+                <h4>Outreach</h4>
+                <p>Proactive support services for vulnerable individuals in the community.</p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="image">
+            <img src="images/support_worker.jpg" alt="Support Worker Smiling" />
+        </div>
+        <div class="text">
+            <h3>About Us</h3>
+            <p>We are a registered CIC (Company No. 16381471) dedicated to supporting individuals and families facing housing challenges. We believe in dignity, empowerment, and inclusive support for all.</p>
+        </div>
+    </section>
     <footer>
         <p>&copy; 2025 Elroy Housing and Community Support CIC</p>
     </footer>
